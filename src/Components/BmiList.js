@@ -1,6 +1,7 @@
 import React from "react";
 
-const BmiList = () => {
+const BmiList = ({ range }) => {
+  console.log(range);
   return (
     <div className="main-list-container">
       <div className="type-container">
@@ -12,7 +13,7 @@ const BmiList = () => {
         <div className="items">
           <div>Underweight</div>
           <div>18.5</div>
-          <div></div>
+          <div>{range.underweight.low}</div>
         </div>
         <div className="items">
           <div>Normal</div>

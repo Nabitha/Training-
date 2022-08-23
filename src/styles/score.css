@@ -5,6 +5,7 @@
 .items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid grey;
 }
 .type-container {
   border: 1px solid burlywood;
