@@ -1,0 +1,14 @@
+.type-heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.type-container {
+  border: 1px solid burlywood;
+  padding: 20px;
+  margin-top: 12px;
+  width: 58%;
+}
